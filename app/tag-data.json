@@ -1,7 +1,5 @@
 {
   "tls-series": 1,
-  "linux": 2,
-  "리눅스-디렉터리-구조": 2,
-  "fhs": 2,
-  "리눅스-기초": 2
+  "linux-series": 2,
+  "linux": 2
 }
