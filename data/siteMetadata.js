@@ -6,7 +6,7 @@ const siteMetadata = {
   description: '모의해킹과 개발 공부를 기록하는 Backouts의 기술 로그북입니다.',
   language: 'ko-KR',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://backouts-blog.vercel.app',
+  siteUrl: 'https://backouts.vercel.app',
   siteRepo: 'https://github.com/backouts/backouts-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
