@@ -236,3 +236,8 @@ input:-webkit-autofill:focus {
 .dark .prose details > *:not(summary) {
   color: #e5e7eb;
 }
+
+.prose details pre,
+.prose details code {
+  font-size: 1rem !important;
+}
