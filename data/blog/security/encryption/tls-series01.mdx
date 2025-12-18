@@ -374,7 +374,7 @@ _프레이밍_ 없이, *socket 라이브러리*의 `send`와 `recv`만 사용해
     import struct
 
     # 바이트 블록을 송신하는 함수
-    def send_block(sock, data: bytes):
+    def send_block(sock, data):
         length = len(data)
         # 데이터의 길이를 4바이트로 패킹하여 전송함
         sock.sendall(struct.pack("!I", length) + data)
